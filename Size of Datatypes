@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	int integer1{0};
+	long int integer2{0};
+	double number1{0.00};
+	long double number2{0.000};
+	float flt1{0.0};
+	char char1{'A'};
+	
+	cout <<"Size of int:"<< sizeof(integer1) <<endl;
+	cout <<"Size of long int:"<< sizeof(integer2) <<endl;
+	cout <<"Size of double:"<< sizeof(number1) <<endl;
+	cout <<"Size of long double:"<< sizeof(number2) <<endl;
+	cout <<"Size of float:"<< sizeof(flt1) <<endl;
+	cout <<"Size of char:"<< sizeof(char1) <<endl;
+	
+	return 0;
+}
+	
